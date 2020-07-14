@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "babel src -d lib",
     "prepublish": "npm run compile",
-    "test": "nyc --reporter=html --reporter=text mocha"
+    "test": "mocha"
   },
   "directories": {
     "lib": "./src",
